@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <title>Contact Us</title>
+  <body>
+    <!-- This is the @head and it will encompass our logo and our navigation bar -->
+    <head>
+      <div>
+        <table style="width: 100%">
+          <tr>
+            <td>
+              <a href="index.html">
+                <img src="assets/logo/3.jpeg" width="100px" alt="" />
+              </a>
+            </td>
+            <td align="right">
+              <nav
+                style="
+                  margin-right: 50px;
+                  margin-top: 16px;
+                  margin-bottom: 16px;
+                  margin-left: 50px;
+                "
+              >
+                <a href="index.html">Home</a>
+                <a href="about_us.html" style="margin: 16px">About Us</a>
+                <a href="contact_us.html">Contact Us</a>
+              </nav>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </head>
+    
+    <main style="height: 100vh; background-color: grey">
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Hit Me Up</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="assets/imgs/Tshepo.jpg" style="width:10%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="province" name="province">
+                <option value=""></option>
+                <option value="gauteng">Gauteng</option>
+                <option value="limpopo">Limpopo</option>
+                <option value="free state">Free State</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      
+    </footer>
+  </body>
+</html>
